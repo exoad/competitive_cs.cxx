@@ -9,18 +9,14 @@ int main()
         scanf("%d%d", &p1, &p2);
         m = m + p1;
         n = n + p2;
-        if(m >= n){
+        if(m >= n)
 	        d1 = m - n;
-        }
-        if (m < n) {
+        if (m < n)
             d2 = n - m;
-        }
-        if (d1 > lead1){
+        if (d1 > lead1)
             lead1 = d1;
-        }
-        if (d2 > lead2){
+        if (d2 > lead2)
             lead2 = d2;
-        }
     }
     if (lead1 > lead2)
 	    printf("1 %d", lead1);
