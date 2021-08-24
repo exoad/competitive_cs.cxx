@@ -22,9 +22,7 @@ int main()
     sort(a.begin(), a.end());
     int f = 0;
     for (int i = 1; i <= N; i++)
-    {
       cnt[a[i]][i % 2]--;
-    }
     for (int i = 1; i <= N; i++)
     {
       f |= cnt[a[i]][0] != 0;
