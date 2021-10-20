@@ -1,3 +1,5 @@
+#pragma GCC diagnostics ignored ?
+
 #include <stdio.h>
 
 int main()
