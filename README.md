@@ -1,5 +1,3 @@
 # README
 
-A competitive programming repo, idk
-
-I don't everything here.
+I put my solves here for online competitive programming contests/past contests.
