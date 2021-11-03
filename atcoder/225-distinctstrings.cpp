@@ -1,3 +1,5 @@
+//not the best of solutions and any constraints are not hardcoded allowing for additional mem usage
+
 #include<bits/stdc++.h>
 #define MAX 26
 using namespace std;
