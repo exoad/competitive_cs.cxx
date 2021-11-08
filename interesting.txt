@@ -1,7 +1,56 @@
 Note: Everything here will be mostly for C++ & C as those are my main languages however there might be slight traces of other programming languages
 
+This is always being constantly being updated :D
+
 Programming Handbook:
 1. See the file CPH.pdf in this repository at root directory
+
+Good Books:
+1. https://mitpress.mit.edu/books/introduction-algorithms
+
+WOW:
+1. https://docs.google.com/spreadsheets/d/1iJZWP2nS_OB3kCTjq8L6TrJJ4o-5lhxDOyTaocSYc-k/edit#gid=84654839
+
+Courses:
+1. https://courseware.stanford.edu/pg/courses/lectures/371747
+2. http://cs162.eecs.berkeley.edu/
+3. https://sites.google.com/site/cs186spring2015/
+4. http://www.cgl.uwaterloo.ca/~wmcowan/teaching/cs452/s12/notes/index.html
+5. http://www.cs.cornell.edu/courses/CS2043/2014sp/
+6. http://www.cs.cornell.edu/courses/CS2043/2014sp/
+7. http://rust-class.org/index.html
+8. http://www.cs.nyu.edu/~mwalfish/classes/15sp/index.html
+9. http://dcg.ethz.ch/lectures/podc_allstars/lecture/podc.pdf
+10. http://15418.courses.cs.cmu.edu/spring2015/
+11. http://www.ece.cmu.edu/~ece447/s15/doku.php?id=start
+12. http://www.seas.upenn.edu/~cis194/
+13. http://datastructur.es/sp16/
+14. http://people.seas.harvard.edu/~minilek/cs224/fall14/index.html
+15. https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/index.htm
+16. http://www.seas.upenn.edu/~cis500/cis500-f14/index.html
+17. http://www.cs.cornell.edu/~dsteurer/toc13/
+18. http://www.cs.cornell.edu/courses/CS4300/2013fa/lectures/introduction.pdf
+19. http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/index.htm
+20. https://inst.eecs.berkeley.edu/~cs168/fa15/
+21. http://video.bilkent.edu.tr/course_videos.php?courseid=10
+22. http://www.cs.cornell.edu/courses/CS5150/2014fa/materials.html
+23. http://philipmjohnson.github.io/ics314f13/readings/
+24. http://www.ini740.rocks/F20
+25. http://mlecture.uni-bremen.de/ml/index.php?option=com_content&view=article&id=233
+26. http://www.informatics.indiana.edu/rocha/i-bic/#materials
+
+Editorials (For Contests):
+1. https://github.com/mostafa-saad/MyCompetitiveProgramming
+2. 
+
+Guides & Syllabus:
+1. https://people.ksp.sk/~misof/ioi-syllabus/
+2. https://docs.google.com/document/d/1_dc3Ifg7Gg1LxhiqMMmE9UbTsXpdRiYh4pKILYG2eA4/edit
+3. https://www.geeksforgeeks.org/fundamentals-of-algorithms/
+4. 
+
+Benq orz:
+1. https://github.com/bqi343/USACO
 
 Ary's Geniosity:
 1. https://aryansh.gitbook.io/informatics-notes/
@@ -28,6 +77,7 @@ USACO Guide:
 9. https://usaco.guide/general/notes-cpp-ds?lang=cpp
 11. https://forum.usaco.guide/t/how-to-ask-for-help-on-a-problem/338
 12. https://ide.usaco.guide/
+13. https://github.com/cpinitiative/usaco-guide
 
 Programming Contest Websites:
 1. https://cses.fi/
@@ -40,4 +90,4 @@ Programming Contest Websites:
 8. https://www.codewars.com/
 9. http://usaco.org/
 10. https://coderbyte.com/
-
+11. https://projecteuler.net/
