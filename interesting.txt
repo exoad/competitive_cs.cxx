@@ -1,0 +1,43 @@
+Note: Everything here will be mostly for C++ & C as those are my main languages however there might be slight traces of other programming languages
+
+Programming Handbook:
+1. See the file CPH.pdf in this repository at root directory
+
+Ary's Geniosity:
+1. https://aryansh.gitbook.io/informatics-notes/
+2. https://aryansh.gitbook.io/informatics-notes/usaco-specific/preparing-for-contests
+3. https://aryansh.gitbook.io/informatics-notes/misc-tricks/some-c++-contest-tricks-i-wish-i-were-told
+4. https://aryansh.gitbook.io/informatics-notes/misc-tricks/unusing-identifiers
+5. https://aryansh.gitbook.io/informatics-notes/editor-setup
+6. https://github.com/Aryansh-S/USACO
+7. https://aryansh.gitbook.io/informatics-notes/debugging-correctly
+8. https://aryansh.gitbook.io/informatics-notes/syntax-and-templates/quickest-io-library
+9. https://aryansh.gitbook.io/informatics-notes/syntax-and-templates/writing-generic-code
+10. https://github.com/Aryansh-S/USACO/blob/main/Resources.md
+11. https://aryansh.gitbook.io/informatics-notes/sweep-line/sweep-line-silver-gold-part-1
+
+USACO Guide:
+1. https://usaco.guide/plat/sqrt?lang=cpp
+2. https://usaco.guide/plat/RURQ?lang=cpp
+3. https://forum.usaco.guide/
+4. https://usaco.guide/problems/
+5. https://usaco.guide/adv/slope-trick?lang=cpp
+6. https://usaco.guide/adv/persistent?lang=cpp
+7. https://usaco.guide/plat/sparse-segtree?lang=cpp
+8. https://usaco.guide/general/fast-io?lang=cpp
+9. https://usaco.guide/general/notes-cpp-ds?lang=cpp
+11. https://forum.usaco.guide/t/how-to-ask-for-help-on-a-problem/338
+12. https://ide.usaco.guide/
+
+Programming Contest Websites:
+1. https://cses.fi/
+2. https://atcoder.jp/
+3. https://www.codechef.com/
+4. https://www.hackerrank.com/
+5. https://codeforces.com/
+6. https://leetcode.com/
+7. https://www.topcoder.com/
+8. https://www.codewars.com/
+9. http://usaco.org/
+10. https://coderbyte.com/
+
