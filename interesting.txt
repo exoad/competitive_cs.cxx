@@ -2,8 +2,37 @@ Note: Everything here will be mostly for C++ & C as those are my main languages 
 
 This is always being constantly being updated :D
 
+Tools
+1. https://codeforces.com/blog/entry/66552
+2. https://cfviz.netlify.app/index.html
+3. https://github.com/meooow25/carrot
+4. https://www.stopstalk.com/
+
 Programming Handbook:
 1. See the file CPH.pdf in this repository at root directory
+2. http://www.csc.kth.se/~jsannemo/slask/main.pdf
+3. https://github.com/prasadgujar/CompetitiveProgramming/blob/master/book/Competitive%20Programming%203.pdf
+4. https://comscigate.com/Books/contests/icpc.pdf
+
+Informatics Organizations:
+1. https://orac.amt.edu.au/cgi-bin/train/hub.pl
+2. https://www.acmicpc.net/category/356
+3. https://dmoj.ca/problems/?category=24
+4. https://oj.uz/problems/source/22
+5. https://www.acmicpc.net/category/198
+6. https://olimpiada.ic.unicamp.br/
+7. https://contests.oi.in.ua/
+8. https://infoarena.ro/
+9. https://oj.vnoi.info/
+10. https://cses.fi/ceoi/list/
+
+YouTube stuffs:
+1. https://www.youtube.com/channel/UCBr_Fu6q9iHYQCh13jmpbrg
+2. https://www.youtube.com/channel/UCKuDLsO0Wwef53qdHPjbU2Q
+3. https://www.youtube.com/channel/UCVp5MlM5aQbhObh5JYlgHUw
+4. https://www.youtube.com/channel/UC0PYAh68WLY69tMXCzPKpLA
+5. https://www.youtube.com/channel/UCe14db9xzTx8DNPUPxNKO9g
+6. https://www.youtube.com/c/mitocw/
 
 Good Books:
 1. https://mitpress.mit.edu/books/introduction-algorithms
@@ -41,13 +70,19 @@ Courses:
 
 Editorials (For Contests):
 1. https://github.com/mostafa-saad/MyCompetitiveProgramming
-2. 
+
+Articles:
+1. http://www.serbanology.com/article/The%20Trick%20From%20Aliens
+2. https://codeforces.com/blog/entry/72525
+3. https://codeforces.com/blog/entry/47764
+4. https://codeforces.com/blog/entry/15547
+5. https://codeforces.com/blog/entry/62393
+6. https://codeforces.com/blog/entry/21853
 
 Guides & Syllabus:
 1. https://people.ksp.sk/~misof/ioi-syllabus/
 2. https://docs.google.com/document/d/1_dc3Ifg7Gg1LxhiqMMmE9UbTsXpdRiYh4pKILYG2eA4/edit
 3. https://www.geeksforgeeks.org/fundamentals-of-algorithms/
-4. 
 
 Benq orz:
 1. https://github.com/bqi343/USACO
@@ -91,3 +126,6 @@ Programming Contest Websites:
 9. http://usaco.org/
 10. https://coderbyte.com/
 11. https://projecteuler.net/
+12. https://dmoj.ca/
+13. https://codingcompetitions.withgoogle.com/
+14. https://www.facebook.com/codingcompetitions/hacker-cup/
