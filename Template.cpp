@@ -1,14 +1,15 @@
 #include <bits/stdc++.h> 
 using namespace std;
-
 using ll = long long;
-
 using vi = vector<int>;
+using pi = pair<int,int>;
+using str = std::string;
+
 #define pb push_back
 #define all(x) begin(x), end(x)
 #define sz(x) (int) (x).size()
 
-using pi = pair<int,int>;
+
 #define f first
 #define s second
 #define mp make_pair
@@ -21,6 +22,7 @@ void setIO(string name = "") {
 	}
 }
 
+int n; // testcases if any (else delete this)
 int main(void) {
 	setIO();
 }
