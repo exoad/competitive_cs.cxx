@@ -5,11 +5,6 @@ using vi = vector<int>;
 using pi = pair<int,int>;
 using str = std::string;
 
-#define pb push_back
-#define all(x) begin(x), end(x)
-#define sz(x) (int) (x).size()
-
-
 #define f first
 #define s second
 #define mp make_pair
