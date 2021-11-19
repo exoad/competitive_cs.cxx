@@ -2,6 +2,9 @@ Note: Everything here will be mostly for C++ & C as those are my main languages 
 
 This is always being constantly being updated :D
 
+Advanced Papers & Stuffs:
+1. https://app.litmaps.co/seed/2951691826
+
 Tools
 1. https://codeforces.com/blog/entry/66552
 2. https://cfviz.netlify.app/index.html
