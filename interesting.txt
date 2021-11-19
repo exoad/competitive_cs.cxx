@@ -5,6 +5,7 @@ This is always being constantly being updated :D
 Advanced Papers & Stuffs:
 1. https://app.litmaps.co/seed/2951691826
 2. https://gonitsora.com/wp-content/uploads/2015/10/Sqrt.pdf
+3. https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.704.1507&rep=rep1&type=pdf
 
 Tools
 1. https://codeforces.com/blog/entry/66552
