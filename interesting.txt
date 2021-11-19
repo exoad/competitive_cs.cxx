@@ -75,6 +75,7 @@ Courses:
 
 Editorials (For Contests):
 1. https://github.com/mostafa-saad/MyCompetitiveProgramming
+2. http://www.usaco.org/current/data/sol_cowbasic_platinum_open17.html
 
 Articles:
 1. http://www.serbanology.com/article/The%20Trick%20From%20Aliens
