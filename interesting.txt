@@ -77,6 +77,9 @@ Courses:
 Editorials (For Contests):
 1. https://github.com/mostafa-saad/MyCompetitiveProgramming
 2. http://www.usaco.org/current/data/sol_cowbasic_platinum_open17.html
+3. https://ali-ibrahim137.github.io/atcoder/2020/12/13/ABC185.html
+4. https://ali-ibrahim137.github.io/atcoder/2020/09/19/ABC179.html
+5. https://ali-ibrahim137.github.io/atcoder/2020/09/12/ABC178.html
 
 Articles:
 1. http://www.serbanology.com/article/The%20Trick%20From%20Aliens
@@ -90,6 +93,7 @@ Guides & Syllabus:
 1. https://people.ksp.sk/~misof/ioi-syllabus/
 2. https://docs.google.com/document/d/1_dc3Ifg7Gg1LxhiqMMmE9UbTsXpdRiYh4pKILYG2eA4/edit
 3. https://www.geeksforgeeks.org/fundamentals-of-algorithms/
+4. https://ali-ibrahim137.github.io/competitive/programming/2020/08/23/Stress Testing.html#:~:text=You%20can%20use%20stress%20testing,in%20your%20approach%20and%20eventually
 
 Benq orz:
 1. https://github.com/bqi343/USACO
