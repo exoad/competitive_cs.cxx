@@ -88,6 +88,7 @@ Articles:
 4. https://codeforces.com/blog/entry/15547
 5. https://codeforces.com/blog/entry/62393
 6. https://codeforces.com/blog/entry/21853
+7. https://github.com/Ali-Ibrahim137/Competitive-Programming/tree/master/Articles
 
 Guides & Syllabus:
 1. https://people.ksp.sk/~misof/ioi-syllabus/
