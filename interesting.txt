@@ -141,3 +141,9 @@ Programming Contest Websites:
 12. https://dmoj.ca/
 13. https://codingcompetitions.withgoogle.com/
 14. https://www.facebook.com/codingcompetitions/hacker-cup/
+15. https://judge.yosupo.jp
+
+My Bookmarked / Starred Problems / Challenged: 
+1. https://codeforces.com/contest/1217/problem/F
+2. http://www.usaco.org/index.php?page=viewproblem2&cpid=230
+3. https://oj.uz/problem/view/COCI16_burza
