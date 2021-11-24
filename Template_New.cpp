@@ -299,6 +299,13 @@ inline namespace temp_stuff {
 }
 auto TICK; 
 
+struct CPS { 
+	template<class T, class U> 
+	bool operator() (const pair<T,U> &a, const pair<T,U> &b) const { return mp(a.s,a.f) < mp(b.s,b.f); } 
+};
+
+set<pair<int,int>, CPS>> example; 
+
 signed main() {
   IO("");
 
