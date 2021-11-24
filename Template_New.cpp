@@ -1,5 +1,27 @@
 #include <bits/stdc++.h>
 
+/*
+bruh pragmas
+#pragma warning(disable : 4996)
+#pragma warning(disable : 4244)
+#pragma warning(disable : 4305)
+#pragma warning(disable : 4267)
+#pragma GCC diagnostic ignored "-Wunused-parameter"
+#pragma GCC diagnostic ignored "-Wunused-variable"
+#pragma GCC diagnostic ignored "-Wpragmas"
+#pragma GCC diagnostic ignored "-Wunused-function"
+#pragma GCC diagnostic ignored "-Wunused-but-set-variable"
+#pragma GCC diagnostic ignored "-Wunused-but-set-parameter"
+#pragma GCC diagnostic ignored "-Wwrite-strings"
+#pragma GCC diagnostic ignored "-Wunused-local-typedefs"
+#pragma GCC diagnostic ignored "-Wunused-but-set-label"
+#pragma GCC diagnostic ignored "-Wunused-label"
+#pragma CYG_ANNOT_CALL_CONVENTION
+#pragma GCC diagnostic ignored "-Wmissing-field-initializers"
+#pragma GCC diagnostic ignored "-Wmissing-braces"
+#pragma GCC diagnostic ignored "-Wmissing-declarations"
+
+*/
 #include <ext/pb_ds/assoc_container.hpp>
 
 #include <ext/pb_ds/tree_policy.hpp>
