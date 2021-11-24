@@ -1,6 +1,10 @@
 #include <bits/stdc++.h> 
 //bits bloat time to switch
-
+define arcX template<class T
+#define arcXU arcX, class U
+// ^ lol this makes everything look weird but I'll try it
+arcX> using V = vector<T>; 
+arcX, size_t SZ> using AR = array<T,SZ>; 
 #define sz(x) int((x).size())
 #define bg(x) begin(x)
 #define all(x) bg(x), end(x)
@@ -24,8 +28,11 @@
 
 #define lb lower_bound
 #define ub upper_bound
-tcT> int lwb(V<T>& a, const T& b) { return int(lb(all(a),b)-bg(a)); }
-tcT> int upb(V<T>& a, const T& b) { return int(ub(all(a),b)-bg(a)); }
+arcX> int lwb(V<T>& a, const T& b) { return int(lb(all(a),b)-bg(a)); }
+arcX> int upb(V<T>& a, const T& b) { return int(ub(all(a),b)-bg(a)); }
+
+mt19937 rng((uint32_t)chrono::steady_clock::now().time_since_epoch().count()); 
+template<class T> using pqg = priority_queue<T,vector<T>,greater<T>>;
 
 using namespace std;
 using ll = long long;
@@ -52,7 +59,7 @@ const db PI = acos((db)-1);
 constexpr int p2(int x) { return 1<<x; }
 constexpr int msk2(int x) { return p2(x)-1; }
 
-tcTU> T lstTrue(T lo, T ti, U f) {
+arcXU> T lstTrue(T lo, T ti, U f) {
 	--lo; assert(lo <= ti); 
 	while (lo < ti) {
 		T mid = lo+(ti - lo + 1) / 2;
@@ -61,9 +68,9 @@ tcTU> T lstTrue(T lo, T ti, U f) {
 	return lo;
 }
 
-tcT> bool ckmin(T& a, const T& b) {
+arcX> bool ckmin(T& a, const T& b) {
 	return b < a ? a = b, 1 : 0; } // set a = min(a,b)
-tcT> bool ckmax(T& a, const T& b) {
+arcX> bool ckmax(T& a, const T& b) {
 	return a < b ? a = b, 1 : 0; }
 
 void setIO(string name = "") {
