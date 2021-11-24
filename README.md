@@ -9,8 +9,9 @@ Check [interesting.txt](./interesting.txt) for some resources and links to possi
 ^constantly being updated!
 
 # Forked
-The fork exoad/competitive-programming is a beta staging of the original competitive-programming meaning that I have to make sure 
-every piece of code works before I publish to meng-jack/competitive-programming
+The forked version exoad/competitive-programmiing is mainly for me to put everything there, while the original acts as 
+the "final product." In the fork, I make sure everything I have written isn't false and all pieces of code runs correctly
+(however runs correctly does not mean it would run on all platforms)
 
 # Code Conduct
 All code belongs to me otherwise if specified to the original author (e.g. Problem Setter). Otherwise if the owner is unknown, code ownership will placed under **my** 
