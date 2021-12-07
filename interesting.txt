@@ -84,6 +84,14 @@ Editorials (For Contests):
 4. https://ali-ibrahim137.github.io/atcoder/2020/09/19/ABC179.html
 5. https://ali-ibrahim137.github.io/atcoder/2020/09/12/ABC178.html
 
+Binary Search Problems:
+1. https://codeforces.com/problemset/problem/1612/C
+2. https://codeforces.com/problemset/problem/1582/E
+3. https://codeforces.com/problemset/problem/1574/D
+4. https://codeforces.com/problemset/problem/1550/F
+5. https://codeforces.com/problemset/problem/1538/G
+6 https://codeforces.com/problemset/problem/1488/F
+
 DP Problems:
 1. https://codeforces.com/problemset/problem/1572/E
 2. https://codeforces.com/problemset/problem/1146/H
