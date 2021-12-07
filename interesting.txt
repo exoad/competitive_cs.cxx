@@ -104,7 +104,7 @@ Geometry Problems:
 3. https://codeforces.com/problemset/problem/1477/C
 4. https://codeforces.com/problemset/problem/1455/E
 
-Articles:
+Articles / Tutorials:
 1. http://www.serbanology.com/article/The%20Trick%20From%20Aliens
 2. https://codeforces.com/blog/entry/72525
 3. https://codeforces.com/blog/entry/47764
@@ -113,6 +113,8 @@ Articles:
 6. https://codeforces.com/blog/entry/21853
 7. https://github.com/Ali-Ibrahim137/Competitive-Programming/tree/master/Articles
 8. https://codeforces.com/blog/entry/63823
+9. https://codeforces.com/blog/entry/97627
+10. https://codeforces.com/blog/entry/96199
 
 Guides & Syllabus:
 1. https://people.ksp.sk/~misof/ioi-syllabus/
