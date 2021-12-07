@@ -8,6 +8,8 @@ Advanced Papers & Stuffs:
 3. https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.704.1507&rep=rep1&type=pdf
 4. https://www.ti.inf.ethz.ch/ew/courses/CG13/lecture/Chapter%203.pdf
 5. https://arxiv.org/pdf/2110.00671.pdf
+6. https://arxiv.org/pdf/2007.08110.pdf
+7. https://arxiv.org/pdf/2109.00493.pdf
 
 Tools
 1. https://codeforces.com/blog/entry/66552
@@ -90,6 +92,7 @@ Articles:
 5. https://codeforces.com/blog/entry/62393
 6. https://codeforces.com/blog/entry/21853
 7. https://github.com/Ali-Ibrahim137/Competitive-Programming/tree/master/Articles
+8. https://codeforces.com/blog/entry/63823
 
 Guides & Syllabus:
 1. https://people.ksp.sk/~misof/ioi-syllabus/
