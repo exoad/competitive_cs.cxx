@@ -84,6 +84,18 @@ Editorials (For Contests):
 4. https://ali-ibrahim137.github.io/atcoder/2020/09/19/ABC179.html
 5. https://ali-ibrahim137.github.io/atcoder/2020/09/12/ABC178.html
 
+DP Problems:
+1. https://codeforces.com/problemset/problem/1572/E
+2. https://codeforces.com/problemset/problem/1146/H
+3. https://codeforces.com/problemset/problem/1601/C
+4. https://codeforces.com/problemset/problem/1582/F2
+
+Geometry Problems:
+1. https://codeforces.com/contest/1083/problem/E
+2. https://codeforces.com/problemset/problem/1495/A
+3. https://codeforces.com/problemset/problem/1477/C
+4. https://codeforces.com/problemset/problem/1455/E
+
 Articles:
 1. http://www.serbanology.com/article/The%20Trick%20From%20Aliens
 2. https://codeforces.com/blog/entry/72525
