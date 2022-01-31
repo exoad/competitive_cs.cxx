@@ -1,0 +1,164 @@
+## System Info
+
+* Code - Insiders: 1.64.0-insider (a853936292178200eb58c2a9904d7a7dcf98cce8)
+* OS: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36(5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36)
+* VM(likelihood): 0%
+* Initial Startup: false
+* Has 0 other windows
+* Screen Reader Active: false
+* Empty Workspace: false
+
+## Performance Marks
+
+| What                                                               | Duration | Process                   | Info                                   |
+| ------------------------------------------------------------------ | -------- | ------------------------- | -------------------------------------- |
+| start => app.isReady                                               | -        | [main]                    | initial startup: false                 |
+| nls:start => nls:end                                               | -        | [main]                    | initial startup: false                 |
+| require(main.bundle.js)                                            | -        | [main]                    | initial startup: false                 |
+| start crash reporter                                               | -        | [main]                    | initial startup: false                 |
+| serve main IPC handle                                              | -        | [main]                    | initial startup: false                 |
+| create window                                                      | -        | [main]                    | initial startup: false,                |
+| app.isReady => window.loadUrl()                                    | -        | [main]                    | initial startup: false                 |
+| window.loadUrl() => begin to require(workbench.desktop.main.js)    | 0        | [main->renderer]          | NewWindow                              |
+| require(workbench.desktop.main.js)                                 | 139      | [renderer]                | cached data: NO, node_modules took 0ms |
+| wait for window config                                             | 0        | [renderer]                | -                                      |
+| init storage (global & workspace)                                  | 113      | [renderer]                | -                                      |
+| init workspace service                                             | 78       | [renderer]                | -                                      |
+| init settings and global state from settings sync service          | 0        | [renderer]                | -                                      |
+| init keybindings, snippets & extensions from settings sync service | 0        | [renderer]                | -                                      |
+| register extensions & spawn extension host                         | 333      | [renderer]                | -                                      |
+| restore viewlet                                                    | 11       | [renderer]                | workbench.view.explorer                |
+| restore panel                                                      | 0        | [renderer]                | -                                      |
+| restore & resolve visible editors                                  | 37       | [renderer]                | 0:                                     |
+| overall workbench load                                             | 382      | [renderer]                | -                                      |
+| workbench ready                                                    | 0        | [main->renderer]          | -                                      |
+| renderer ready                                                     | 0        | [renderer]                | -                                      |
+| shared process connection ready                                    | 0        | [renderer->sharedprocess] | -                                      |
+| extensions registered                                              | 0        | [renderer]                | -                                      |
+
+## Extension Activation Stats
+
+| Extension                         | Eager | Load Code | Call Activate | Finish Activate | Event                             | By                                |
+| --------------------------------- | ----- | --------- | ------------- | --------------- | --------------------------------- | --------------------------------- |
+| vscode.npm                        | true  | 2         | 1             | 0               | workspaceContains:package.json    | vscode.npm                        |
+| vscode.emmet                      | false | 4         | 27            | 0               | onStartupFinished                 | vscode.emmet                      |
+| vscode.extension-editing          | false | 1         | 0             | 0               | onLanguage:markdown               | vscode.extension-editing          |
+| vscode.github-authentication      | false | 9         | 4             | 2               | onAuthenticationRequest:github    | vscode.github-authentication      |
+| vscode.markdown-language-features | false | 9         | 3             | 0               | onCommand:markdown.showPreview    | vscode.markdown-language-features |
+| vscode.markdown-math              | false | 1         | 0             | 0               | api                               | vscode.markdown-language-features |
+| vscode.merge-conflict             | false | 2         | 8             | 0               | onStartupFinished                 | vscode.merge-conflict             |
+| vscode.microsoft-authentication   | false | 11        | 1             | 3               | onAuthenticationRequest:microsoft | vscode.microsoft-authentication   |
+| ms-vscode.anycode                 | false | 17        | 18            | 1               | onLanguage:cpp                    | ms-vscode.anycode                 |
+| GitHub.remotehub                  | false | 12        | 4             | 254             | onFileSystem:vscode-vfs           | GitHub.remotehub                  |
+| GitHub.vscode-pull-request-github | false | 39        | 1             | 105             | *                                 | GitHub.vscode-pull-request-github |
+| GitHub.codespaces                 | false | 18        | 7             | 67              | *                                 | GitHub.codespaces                 |
+
+## Raw Perf Marks: renderer
+
+```
+Name	Timestamp	Delta	Total
+code/timeOrigin	1643649456766	0	0
+code/willLoadWorkbenchMain	1643649457691	925	925
+code/didLoadWorkbenchMain	1643649457830	139	1064
+code/willOpenDatabase/vscode-web-db	1643649457831	1	1065
+code/didOpenDatabase/vscode-web-db	1643649457864	33	1098
+code/registerFilesystem/vscode-log	1643649457864	0	1098
+code/registerFilesystem/vscode-userdata	1643649457865	1	1099
+code/registerFilesystem/file	1643649457865	0	1099
+code/registerFilesystem/tmp	1643649457865	0	1099
+code/willInitWorkspaceService	1643649457868	3	1102
+code/willInitStorage	1643649457869	1	1103
+code/willOpenDatabase/vscode-web-state-db--284c75ee	1643649457869	0	1103
+code/willOpenDatabase/vscode-web-state-db-global	1643649457869	0	1103
+code/didOpenDatabase/vscode-web-state-db-global	1643649457884	15	1118
+code/didOpenDatabase/vscode-web-state-db--284c75ee	1643649457906	22	1140
+code/willInitUserConfiguration	1643649457911	5	1145
+code/didInitUserConfiguration	1643649457935	24	1169
+code/willInitWorkspaceConfiguration	1643649457935	0	1169
+code/didInitWorkspaceConfiguration	1643649457945	10	1179
+code/didInitWorkspaceService	1643649457946	1	1180
+code/didInitStorage	1643649457982	36	1216
+code/willStartWorkbench	1643649457984	2	1218
+code/registerFilesystem/http	1643649458002	18	1236
+code/registerFilesystem/https	1643649458002	0	1236
+code/LifecyclePhase/Ready	1643649458048	46	1282
+code/registerFilesystem/vscode-debug-memory	1643649458061	13	1295
+code/registerFilesystem/trustedDomains	1643649458077	16	1311
+code/willRestoreEditors	1643649458325	248	1559
+code/willRestoreViewlet	1643649458327	2	1561
+code/didRestoreViewlet	1643649458338	11	1572
+code/willResolveExplorer	1643649458358	20	1592
+code/willLoadExtensions	1643649458360	2	1594
+code/didRestoreEditors	1643649458362	2	1596
+code/LifecyclePhase/Restored	1643649458366	4	1600
+code/didStartWorkbench	1643649458366	0	1600
+code/didRemovePartsSplash	1643649458367	1	1601
+code/willHandleExtensionPoints	1643649458605	238	1839
+code/didHandleExtensionPoints	1643649458689	84	1923
+code/didLoadExtensions	1643649458693	4	1927
+```
+## Raw Perf Marks: workerExtHost
+
+```
+Name	Timestamp	Delta	Total
+code/timeOrigin	1643649459104	0	0
+code/extHost/willConnectToRenderer	1643649459511	407	407
+code/extHost/didWaitForInitData	1643649459524	13	420
+code/extHost/didCreateServices	1643649459529	5	425
+code/extHost/willWaitForConfig	1643649459534	5	430
+code/extHost/didWaitForConfig	1643649459538	4	434
+code/extHost/didInitAPI	1643649459538	0	434
+code/extHost/ready	1643649459542	4	438
+code/extHost/willFetchExtensionCode/GitHub.remotehub	1643649459556	14	452
+code/extHost/willFetchExtensionCode/GitHub.vscode-pull-request-github	1643649459558	2	454
+code/extHost/willFetchExtensionCode/GitHub.codespaces	1643649459559	1	455
+code/extHost/willFetchExtensionCode/vscode.microsoft-authentication	1643649459560	1	456
+code/extHost/willFetchExtensionCode/vscode.npm	1643649459561	1	457
+code/extHost/didFetchExtensionCode/vscode.microsoft-authentication	1643649459566	5	462
+code/extHost/didFetchExtensionCode/vscode.npm	1643649459567	1	463
+code/extHost/willLoadExtensionCode/vscode.microsoft-authentication	1643649459576	9	472
+code/extHost/didLoadExtensionCode/vscode.microsoft-authentication	1643649459587	11	483
+code/extHost/willLoadExtensionCode/vscode.npm	1643649459588	1	484
+code/extHost/didLoadExtensionCode/vscode.npm	1643649459590	2	486
+code/extHost/didFetchExtensionCode/GitHub.remotehub	1643649459591	1	487
+code/extHost/willActivateExtension/vscode.microsoft-authentication	1643649459600	9	496
+code/extHost/willActivateExtension/vscode.npm	1643649459601	1	497
+code/extHost/didActivateExtension/vscode.npm	1643649459602	1	498
+code/extHost/didActivateExtension/vscode.microsoft-authentication	1643649459604	2	500
+code/extHost/didFetchExtensionCode/GitHub.vscode-pull-request-github	1643649459605	1	501
+code/extHost/willFetchExtensionCode/vscode.github-authentication	1643649459607	2	503
+code/extHost/didFetchExtensionCode/vscode.github-authentication	1643649459609	2	505
+code/extHost/willLoadExtensionCode/GitHub.remotehub	1643649459639	30	535
+code/extHost/didLoadExtensionCode/GitHub.remotehub	1643649459651	12	547
+code/extHost/willActivateExtension/GitHub.remotehub	1643649459651	0	547
+code/extHost/didFetchExtensionCode/GitHub.codespaces	1643649459658	7	554
+code/extHost/willLoadExtensionCode/vscode.github-authentication	1643649459670	12	566
+code/extHost/didLoadExtensionCode/vscode.github-authentication	1643649459679	9	575
+code/extHost/willActivateExtension/vscode.github-authentication	1643649459679	0	575
+code/extHost/didActivateExtension/vscode.github-authentication	1643649459685	6	581
+code/extHost/willLoadExtensionCode/GitHub.vscode-pull-request-github	1643649459750	65	646
+code/extHost/didLoadExtensionCode/GitHub.vscode-pull-request-github	1643649459789	39	685
+code/extHost/willActivateExtension/GitHub.vscode-pull-request-github	1643649459790	1	686
+code/extHost/willLoadExtensionCode/GitHub.codespaces	1643649459862	72	758
+code/extHost/didLoadExtensionCode/GitHub.codespaces	1643649459880	18	776
+code/extHost/willActivateExtension/GitHub.codespaces	1643649459880	0	776
+code/extHost/didActivateExtension/GitHub.vscode-pull-request-github	1643649459896	16	792
+code/extHost/didActivateExtension/GitHub.remotehub	1643649459909	13	805
+code/extHost/didActivateExtension/GitHub.codespaces	1643649459955	46	851
+```
+
+## Node Cached Data Stats
+
+
+### cached data used
+
+
+### cached data missed
+
+
+### cached data rejected
+
+
+### cached data created (lazy, might need refreshes)
+
+
