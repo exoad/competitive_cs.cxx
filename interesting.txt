@@ -98,6 +98,10 @@ DP Problems:
 3. https://codeforces.com/problemset/problem/1601/C
 4. https://codeforces.com/problemset/problem/1582/F2
 
+Schools & Contests:
+1. https://www.cs.cornell.edu/events/cornell-high-school-programming-contest
+2. https://www.cs.ksu.edu/outreach/programming-contest/
+
 Geometry Problems:
 1. https://codeforces.com/contest/1083/problem/E
 2. https://codeforces.com/problemset/problem/1495/A
