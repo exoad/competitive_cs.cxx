@@ -1,4 +1,3 @@
-```cpp
 #include <algorithm>
 #include <array>
 #include <vector>
@@ -36,4 +35,3 @@ const int MOD = 1e9+7;const int IE = 1e+9;using pi=std::pair<int,int>;using ll=l
 
 
 return 0;}
-```
